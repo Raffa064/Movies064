@@ -1,0 +1,58 @@
+.main {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 10px;
+    background: #222;
+    color: #aaa;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.poster {
+    min-width: var(--card-width);
+    min-height: var(--card-height);
+    max-width: var(--card-width);
+    max-height: var(--card-height);
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main p {
+    margin-block: 10px;
+}
+
+.genre {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 7px;
+    margin-block: 3px;
+    color: #fff;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.rate {
+    padding: 4px;
+    font-size: 1.2rem;
+    float: right;
+    border: 1px solid #aaaa;
+    border-radius: 3px;
+}
+
+.main #overviewTitle {
+    font-size: 1.1rem;
+}
+
+.goBack {
+    display: block;
+    float: right;
+    font-weight: bold;
+}
+
+.goBack:active {
+    color: #fff;
+}

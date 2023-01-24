@@ -1,0 +1,23 @@
+As telas aqui são feitas em arquuivos js....
+
+styles/globals.css é para todo o projeto, os outros css são para paginas especificas
+
+pages/_app.js é o entry point do projeto 
+
+da para importar arquivos css para usar
+
+importar useRouter() do next/router para acesar o router.query q possui os parametros da query
+
+const {item} = objeto //pega o valor item dentro do objeto... very nice kk
+
+
+PASTAS:
+A pasta public carrega como pagina estatica
+pasta pages é onde fica as paginas
+pasta styles é para os css
+
+Rotas dinamicas:
+post/123 == /pages/post/[id].js
+O next vai entender o [id] como um "parametro" da url
+Da para fazer isso como pastas, tipo:
+/Raffa064/posts/123 == /[user]/posts/[id].js

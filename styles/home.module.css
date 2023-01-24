@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 10px;
+    background: #222;
+    color: #aaa;
+}
+
+.main h1 {
+    font-size: 3rem;
+}
+
+.main h1 span {
+    color: #08f;
+    font-size: 3.3rem;
+}
+
+.main input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    margin: 20px;
+    background: transparent;
+    color: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 60px;
+}
+
+.labeledContainer {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin-block: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+ 
+.labeledContainer > .label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #222;
+} 
